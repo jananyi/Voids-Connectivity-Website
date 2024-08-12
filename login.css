@@ -4,11 +4,14 @@
     box-sizing: border-box;
   }
   body {
-    background-color: gray;
+    background-image: url('images/login-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     font-family: Arial, Helvetica, sans-serif;
   }
   .container {
-    background-color: white;
+    background-color: #c9dde1b3;
     width: 480px;
     height: 650px;
     position: absolute;
@@ -17,8 +20,9 @@
     left: 0;
     bottom: 100px;
     right: 0;
-    border-radius: 10px;
-    box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.5);
+    border-width: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px -1px rgba(0.5, 0.5, 5, 5);
   }
   .content {
     width: 56%;
@@ -113,7 +117,7 @@
   }
   .ggl{
     text-align: center;
-    background-color: #f7eeee;
+    background-color: #f5e1e1;
   }
   .ggl a {
     text-decoration: none;
@@ -139,3 +143,14 @@
     opacity: 0.4;
     margin-left: 25%;
   }
+.password-toggle {
+    font-size: 14px;
+    color: #151515;
+    cursor: pointer;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.password-toggle:hover {
+    color: #0056b3;
+}
