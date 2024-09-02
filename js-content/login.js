@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Simulate login (you would replace this with actual logic)
         if (email === "jan87@gmail.com" && password === "12345") {
             alert("Login successful!");
+            window.location.href = "home.html";
         } else {
             alert("Invalid email or password.");
         }
